@@ -1,0 +1,10 @@
+Fri Dec 19 08:14:43 PM AEDT 2025
+
+First log entry. At this stage, a few parts of the robot have been initiated which
+are not recorded in this log.
+
+Today found a neat way of combining LibreCAD and OpenSCAD to use a compromise of
+traditional CAD and the goodness of parametric design in code. I've created a
+support for the motors that drive the wheels, and included anchor points for
+the rotary encoder used with each motor. Measurements are subject to change
+until I have the required magnets at hand for measurement.
