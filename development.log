@@ -1,3 +1,10 @@
+Fri Dec 19 09:03:09 PM AEDT 2025
+
+Created a fitting for the wheel encoder magnets. The encoder manufacturer
+recommends a clearance of 0.5mm ~ 3.0mm between the magnet and the chip. I
+will amend the height of the encoder support so it falls around 1.5mm.
+
+---
 Fri Dec 19 08:14:43 PM AEDT 2025
 
 First log entry. At this stage, a few parts of the robot have been initiated which
@@ -8,3 +15,5 @@ traditional CAD and the goodness of parametric design in code. I've created a
 support for the motors that drive the wheels, and included anchor points for
 the rotary encoder used with each motor. Measurements are subject to change
 until I have the required magnets at hand for measurement.
+
+---
