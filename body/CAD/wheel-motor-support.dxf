@@ -91,7 +91,7 @@ STANDARD
   9
 $CLAYER
   8
-supports-main
+supports-encoder-1
   9
 $CELTYPE
   6
@@ -1117,7 +1117,7 @@ AcDbViewportTableRecord
  12
 21.46332766257862
  22
-16.13211401735748
+16.16673228778099
  13
 0
  23
@@ -2277,7 +2277,7 @@ AcDbSymbolTableRecord
 100
 AcDbLayerTableRecord
   2
-supports-main
+supports-encoder-1
  70
     0
  62
@@ -2299,7 +2299,7 @@ AcDbSymbolTableRecord
 100
 AcDbLayerTableRecord
   2
-supports-encoder-1
+supports-encoder-2
  70
     1
  62
@@ -2321,9 +2321,9 @@ AcDbSymbolTableRecord
 100
 AcDbLayerTableRecord
   2
-supports-encoder-2
+supports-main
  70
-    1
+    0
  62
     7
   6
@@ -2769,41 +2769,17 @@ ByLayer
 100
 AcDbLine
  10
-15
- 20
--8
- 11
 -15
+ 20
+21
+ 11
+15
  21
--8
+21
   0
 LINE
   5
 53
-100
-AcDbEntity
-  8
-traces
-  6
-ByLayer
- 62
-  256
-370
-   -1
-100
-AcDbLine
- 10
--15
- 20
-21
- 11
-15
- 21
-21
-  0
-LINE
-  5
-54
 100
 AcDbEntity
   8
@@ -2822,6 +2798,30 @@ AcDbLine
 0
  11
 -8.5
+ 21
+30
+  0
+LINE
+  5
+54
+100
+AcDbEntity
+  8
+traces
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+8.5
+ 20
+0
+ 11
+8.5
  21
 30
   0
@@ -2841,11 +2841,11 @@ ByLayer
 100
 AcDbLine
  10
-8.5
+-12.5
  20
-0
+-12.5
  11
-8.5
+-12.5
  21
 30
   0
@@ -2865,13 +2865,13 @@ ByLayer
 100
 AcDbLine
  10
--12.5
+12.5
  20
--12.5
- 11
--12.5
- 21
 30
+ 11
+12.5
+ 21
+-12.5
   0
 LINE
   5
@@ -2889,13 +2889,13 @@ ByLayer
 100
 AcDbLine
  10
-12.5
+-30
  20
-30
+28
  11
-12.5
+30
  21
--12.5
+28
   0
 LINE
   5
@@ -2913,13 +2913,13 @@ ByLayer
 100
 AcDbLine
  10
--20
+-30
  20
-8
+25
  11
-20
+30
  21
-8
+25
   0
 LINE
   5
@@ -2927,7 +2927,7 @@ LINE
 100
 AcDbEntity
   8
-traces
+plate
   6
 ByLayer
  62
@@ -2937,13 +2937,13 @@ ByLayer
 100
 AcDbLine
  10
--30
+30
  20
 28
  11
 30
  21
-28
+25
   0
 LINE
   5
@@ -2951,7 +2951,7 @@ LINE
 100
 AcDbEntity
   8
-traces
+plate
   6
 ByLayer
  62
@@ -2965,61 +2965,13 @@ AcDbLine
  20
 25
  11
-30
+-30
  21
-25
+28
   0
 LINE
   5
 5B
-100
-AcDbEntity
-  8
-plate
-  6
-ByLayer
- 62
-  256
-370
-   -1
-100
-AcDbLine
- 10
-30
- 20
-28
- 11
-30
- 21
-25
-  0
-LINE
-  5
-5C
-100
-AcDbEntity
-  8
-plate
-  6
-ByLayer
- 62
-  256
-370
-   -1
-100
-AcDbLine
- 10
--30
- 20
-25
- 11
--30
- 21
-28
-  0
-LINE
-  5
-5D
 100
 AcDbEntity
   8
@@ -3043,7 +2995,7 @@ AcDbLine
   0
 CIRCLE
   5
-5E
+5C
 100
 AcDbEntity
   8
@@ -3065,7 +3017,7 @@ AcDbCircle
   0
 LINE
   5
-5F
+5D
 100
 AcDbEntity
   8
@@ -3089,11 +3041,59 @@ AcDbLine
   0
 LINE
   5
-60
+5E
 100
 AcDbEntity
   8
 traces
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+12
+ 20
+-16
+ 11
+-12
+ 21
+-16
+  0
+LINE
+  5
+5F
+100
+AcDbEntity
+  8
+plate
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+30
+ 20
+25
+ 11
+12
+ 21
+-16
+  0
+LINE
+  5
+60
+100
+AcDbEntity
+  8
+plate
   6
 ByLayer
  62
@@ -3117,102 +3117,6 @@ LINE
 100
 AcDbEntity
   8
-traces
-  6
-ByLayer
- 62
-  256
-370
-   -1
-100
-AcDbLine
- 10
--8
- 20
--16
- 11
--8
- 21
-15
-  0
-LINE
-  5
-62
-100
-AcDbEntity
-  8
-traces
-  6
-ByLayer
- 62
-  256
-370
-   -1
-100
-AcDbLine
- 10
-8
- 20
--16
- 11
-8
- 21
-15
-  0
-LINE
-  5
-63
-100
-AcDbEntity
-  8
-plate
-  6
-ByLayer
- 62
-  256
-370
-   -1
-100
-AcDbLine
- 10
-30
- 20
-25
- 11
-12
- 21
--16
-  0
-LINE
-  5
-64
-100
-AcDbEntity
-  8
-plate
-  6
-ByLayer
- 62
-  256
-370
-   -1
-100
-AcDbLine
- 10
-12
- 20
--16
- 11
--12
- 21
--16
-  0
-LINE
-  5
-65
-100
-AcDbEntity
-  8
 plate
   6
 ByLayer
@@ -3233,7 +3137,7 @@ AcDbLine
   0
 LINE
   5
-66
+62
 100
 AcDbEntity
   8
@@ -3257,7 +3161,7 @@ AcDbLine
   0
 CIRCLE
   5
-67
+63
 100
 AcDbEntity
   8
@@ -3279,7 +3183,7 @@ AcDbCircle
   0
 CIRCLE
   5
-68
+64
 100
 AcDbEntity
   8
@@ -3301,7 +3205,7 @@ AcDbCircle
   0
 LINE
   5
-69
+65
 100
 AcDbEntity
   8
@@ -3325,7 +3229,7 @@ AcDbLine
   0
 LINE
   5
-6A
+66
 100
 AcDbEntity
   8
@@ -3349,7 +3253,7 @@ AcDbLine
   0
 CIRCLE
   5
-6B
+67
 100
 AcDbEntity
   8
@@ -3369,13 +3273,109 @@ AcDbCircle
  40
 1
   0
-CIRCLE
+LINE
+  5
+68
+100
+AcDbEntity
+  8
+supports-main
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+12.5
+ 20
+28
+ 11
+30
+ 21
+28
+  0
+LINE
+  5
+69
+100
+AcDbEntity
+  8
+supports-main
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+30
+ 20
+28
+ 11
+30
+ 21
+25
+  0
+LINE
+  5
+6A
+100
+AcDbEntity
+  8
+supports-main
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+30
+ 20
+25
+ 11
+12.5
+ 21
+25
+  0
+LINE
+  5
+6B
+100
+AcDbEntity
+  8
+supports-main
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+12.5
+ 20
+25
+ 11
+12.5
+ 21
+28
+  0
+LINE
   5
 6C
 100
 AcDbEntity
   8
-traces
+supports-main
   6
 ByLayer
  62
@@ -3383,21 +3383,23 @@ ByLayer
 370
    -1
 100
-AcDbCircle
+AcDbLine
  10
--8
+-12.5
  20
--8
- 40
-1.75
+28
+ 11
+-12.5
+ 21
+25
   0
-CIRCLE
+LINE
   5
 6D
 100
 AcDbEntity
   8
-traces
+supports-main
   6
 ByLayer
  62
@@ -3405,21 +3407,23 @@ ByLayer
 370
    -1
 100
-AcDbCircle
+AcDbLine
  10
-8
+-12.5
  20
--8
- 40
-1.75
+25
+ 11
+-30
+ 21
+25
   0
-CIRCLE
+LINE
   5
 6E
 100
 AcDbEntity
   8
-traces
+supports-main
   6
 ByLayer
  62
@@ -3427,21 +3431,23 @@ ByLayer
 370
    -1
 100
-AcDbCircle
+AcDbLine
  10
--8
+-30
  20
-8
- 40
-1.75
+25
+ 11
+-30
+ 21
+28
   0
-CIRCLE
+LINE
   5
 6F
 100
 AcDbEntity
   8
-traces
+supports-main
   6
 ByLayer
  62
@@ -3449,13 +3455,15 @@ ByLayer
 370
    -1
 100
-AcDbCircle
+AcDbLine
  10
-8
+-30
  20
-8
- 40
-1.75
+28
+ 11
+-12.5
+ 21
+28
   0
 LINE
   5
@@ -3463,7 +3471,7 @@ LINE
 100
 AcDbEntity
   8
-supports-encoder-1
+supports-main
   6
 ByLayer
  62
@@ -3473,13 +3481,13 @@ ByLayer
 100
 AcDbLine
  10
-9.750000000000009
- 20
-7.999999999999999
- 11
-9.75
- 21
 -8
+ 20
+-16
+ 11
+8
+ 21
+-16
   0
 LINE
   5
@@ -3487,7 +3495,7 @@ LINE
 100
 AcDbEntity
   8
-supports-encoder-1
+supports-main
   6
 ByLayer
  62
@@ -3497,13 +3505,13 @@ ByLayer
 100
 AcDbLine
  10
--9.75
- 20
 8
+ 20
+-16
  11
--9.749999999999984
+8
  21
--8
+-11.5
   0
 LINE
   5
@@ -3511,7 +3519,7 @@ LINE
 100
 AcDbEntity
   8
-supports-encoder-1
+supports-main
   6
 ByLayer
  62
@@ -3521,13 +3529,13 @@ ByLayer
 100
 AcDbLine
  10
-7.999999999999999
+8
  20
-6.249999999999982
+-11.5
  11
-7.999999999999999
+-8
  21
--6.249999999999998
+-11.5
   0
 LINE
   5
@@ -3535,7 +3543,7 @@ LINE
 100
 AcDbEntity
   8
-supports-encoder-1
+supports-main
   6
 ByLayer
  62
@@ -3547,19 +3555,19 @@ AcDbLine
  10
 -8
  20
-6.25
+-11.5
  11
--7.999999999999999
+-8
  21
--6.249999999999982
+-16
   0
-CIRCLE
+LINE
   5
 74
 100
 AcDbEntity
   8
-supports-encoder-1
+traces
   6
 ByLayer
  62
@@ -3567,21 +3575,23 @@ ByLayer
 370
    -1
 100
-AcDbCircle
+AcDbLine
  10
-8
+16
  20
-8
- 40
-0.75
+7.8
+ 11
+-16
+ 21
+7.8
   0
-CIRCLE
+LINE
   5
 75
 100
 AcDbEntity
   8
-supports-encoder-1
+traces
   6
 ByLayer
  62
@@ -3589,21 +3599,23 @@ ByLayer
 370
    -1
 100
-AcDbCircle
+AcDbLine
  10
--8
+-16
  20
-8
- 40
-0.75
+-7.8
+ 11
+16
+ 21
+-7.8
   0
-CIRCLE
+LINE
   5
 76
 100
 AcDbEntity
   8
-supports-encoder-1
+traces
   6
 ByLayer
  62
@@ -3611,21 +3623,23 @@ ByLayer
 370
    -1
 100
-AcDbCircle
+AcDbLine
  10
--8
+-7.8
  20
--8
- 40
-0.75
+-16
+ 11
+-7.8
+ 21
+16
   0
-CIRCLE
+LINE
   5
 77
 100
 AcDbEntity
   8
-supports-encoder-1
+traces
   6
 ByLayer
  62
@@ -3633,21 +3647,23 @@ ByLayer
 370
    -1
 100
-AcDbCircle
+AcDbLine
  10
-8
+7.8
  20
--8
- 40
-0.75
+-16
+ 11
+7.8
+ 21
+16
   0
-ARC
+CIRCLE
   5
 78
 100
 AcDbEntity
   8
-supports-encoder-1
+supports-encoder-2
   6
 ByLayer
  62
@@ -3657,25 +3673,19 @@ ByLayer
 100
 AcDbCircle
  10
--8
+7.800000000000001
  20
--8
+7.8
  40
-1.749999999999995
-100
-AcDbArc
- 50
-180
- 51
-90
+1.7
   0
-ARC
+CIRCLE
   5
 79
 100
 AcDbEntity
   8
-supports-encoder-1
+supports-encoder-2
   6
 ByLayer
  62
@@ -3685,19 +3695,13 @@ ByLayer
 100
 AcDbCircle
  10
-8
+-7.8
  20
--8
+-7.800000000000001
  40
-1.750000000000004
-100
-AcDbArc
- 50
-90.00000000000006
- 51
-4.184959041207098e-06
+1.699999999999999
   0
-ARC
+CIRCLE
   5
 7A
 100
@@ -3713,19 +3717,13 @@ ByLayer
 100
 AcDbCircle
  10
-8
+-7.800000000000001
  20
-8
+7.8
  40
-1.750000000000018
-100
-AcDbArc
- 50
-0
- 51
-269.9999999999999
+1.2
   0
-ARC
+CIRCLE
   5
 7B
 100
@@ -3741,11 +3739,185 @@ ByLayer
 100
 AcDbCircle
  10
--8
+7.8
  20
-8
+-7.800000000000001
  40
-1.75
+1.2
+  0
+LINE
+  5
+7C
+100
+AcDbEntity
+  8
+supports-encoder-1
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+9.5
+ 20
+7.8
+ 11
+10.3
+ 21
+-7.800000000000001
+  0
+LINE
+  5
+7D
+100
+AcDbEntity
+  8
+supports-encoder-1
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+-10.3
+ 20
+7.800000000000001
+ 11
+-9.5
+ 21
+-7.800000000000001
+  0
+LINE
+  5
+7E
+100
+AcDbEntity
+  8
+supports-encoder-1
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+-7.800000000000001
+ 20
+5.300000000000003
+ 11
+-7.8
+ 21
+-6.100000000000001
+  0
+LINE
+  5
+7F
+100
+AcDbEntity
+  8
+supports-encoder-1
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+7.800000000000001
+ 20
+-5.3
+ 11
+7.800000000000001
+ 21
+6.1
+  0
+ARC
+  5
+80
+100
+AcDbEntity
+  8
+supports-encoder-1
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbCircle
+ 10
+7.800000000000001
+ 20
+7.8
+ 40
+1.7
+100
+AcDbArc
+ 50
+0
+ 51
+270
+  0
+ARC
+  5
+81
+100
+AcDbEntity
+  8
+supports-encoder-1
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbCircle
+ 10
+-7.800000000000001
+ 20
+-7.8
+ 40
+1.699999999999999
+100
+AcDbArc
+ 50
+180
+ 51
+89.99999999999997
+  0
+ARC
+  5
+82
+100
+AcDbEntity
+  8
+supports-encoder-1
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbCircle
+ 10
+-7.800000000000001
+ 20
+7.8
+ 40
+2.499999999999996
 100
 AcDbArc
  50
@@ -3753,167 +3925,13 @@ AcDbArc
  51
 180
   0
-CIRCLE
-  5
-7C
-100
-AcDbEntity
-  8
-supports-encoder-2
-  6
-ByLayer
- 62
-  256
-370
-   -1
-100
-AcDbCircle
- 10
--8
- 20
--8
- 40
-1.75
-  0
-CIRCLE
-  5
-7D
-100
-AcDbEntity
-  8
-supports-encoder-2
-  6
-ByLayer
- 62
-  256
-370
-   -1
-100
-AcDbCircle
- 10
-8
- 20
--8
- 40
-1.749999999999998
-  0
-CIRCLE
-  5
-7E
-100
-AcDbEntity
-  8
-supports-encoder-2
-  6
-ByLayer
- 62
-  256
-370
-   -1
-100
-AcDbCircle
- 10
-8
- 20
-8
- 40
-1.75
-  0
-CIRCLE
-  5
-7F
-100
-AcDbEntity
-  8
-supports-encoder-2
-  6
-ByLayer
- 62
-  256
-370
-   -1
-100
-AcDbCircle
- 10
--8
- 20
-8
- 40
-1.750000000000002
-  0
-CIRCLE
-  5
-80
-100
-AcDbEntity
-  8
-supports-encoder-2
-  6
-ByLayer
- 62
-  256
-370
-   -1
-100
-AcDbCircle
- 10
-8
- 20
-8
- 40
-0.75
-  0
-CIRCLE
-  5
-81
-100
-AcDbEntity
-  8
-supports-encoder-2
-  6
-ByLayer
- 62
-  256
-370
-   -1
-100
-AcDbCircle
- 10
--8
- 20
-8
- 40
-0.75
-  0
-CIRCLE
-  5
-82
-100
-AcDbEntity
-  8
-supports-encoder-2
-  6
-ByLayer
- 62
-  256
-370
-   -1
-100
-AcDbCircle
- 10
--8
- 20
--8
- 40
-0.75
-  0
-CIRCLE
+ARC
   5
 83
 100
 AcDbEntity
   8
-supports-encoder-2
+supports-encoder-1
   6
 ByLayer
  62
@@ -3923,299 +3941,17 @@ ByLayer
 100
 AcDbCircle
  10
-8
+7.800000000000001
  20
--8
+-7.8
  40
-0.75
-  0
-LINE
-  5
-84
+2.5
 100
-AcDbEntity
-  8
-supports-main
-  6
-ByLayer
- 62
-  256
-370
-   -1
-100
-AcDbLine
- 10
-12.5
- 20
-28
- 11
-30
- 21
-28
-  0
-LINE
-  5
-85
-100
-AcDbEntity
-  8
-supports-main
-  6
-ByLayer
- 62
-  256
-370
-   -1
-100
-AcDbLine
- 10
-30
- 20
-28
- 11
-30
- 21
-25
-  0
-LINE
-  5
-86
-100
-AcDbEntity
-  8
-supports-main
-  6
-ByLayer
- 62
-  256
-370
-   -1
-100
-AcDbLine
- 10
-30
- 20
-25
- 11
-12.5
- 21
-25
-  0
-LINE
-  5
-87
-100
-AcDbEntity
-  8
-supports-main
-  6
-ByLayer
- 62
-  256
-370
-   -1
-100
-AcDbLine
- 10
-12.5
- 20
-25
- 11
-12.5
- 21
-28
-  0
-LINE
-  5
-88
-100
-AcDbEntity
-  8
-supports-main
-  6
-ByLayer
- 62
-  256
-370
-   -1
-100
-AcDbLine
- 10
--12.5
- 20
-28
- 11
--12.5
- 21
-25
-  0
-LINE
-  5
-89
-100
-AcDbEntity
-  8
-supports-main
-  6
-ByLayer
- 62
-  256
-370
-   -1
-100
-AcDbLine
- 10
--12.5
- 20
-25
- 11
--30
- 21
-25
-  0
-LINE
-  5
-8A
-100
-AcDbEntity
-  8
-supports-main
-  6
-ByLayer
- 62
-  256
-370
-   -1
-100
-AcDbLine
- 10
--30
- 20
-25
- 11
--30
- 21
-28
-  0
-LINE
-  5
-8B
-100
-AcDbEntity
-  8
-supports-main
-  6
-ByLayer
- 62
-  256
-370
-   -1
-100
-AcDbLine
- 10
--30
- 20
-28
- 11
--12.5
- 21
-28
-  0
-LINE
-  5
-8C
-100
-AcDbEntity
-  8
-supports-main
-  6
-ByLayer
- 62
-  256
-370
-   -1
-100
-AcDbLine
- 10
--8
- 20
--16
- 11
-8
- 21
--16
-  0
-LINE
-  5
-8D
-100
-AcDbEntity
-  8
-supports-main
-  6
-ByLayer
- 62
-  256
-370
-   -1
-100
-AcDbLine
- 10
-8
- 20
--16
- 11
-8
- 21
--11.5
-  0
-LINE
-  5
-8E
-100
-AcDbEntity
-  8
-supports-main
-  6
-ByLayer
- 62
-  256
-370
-   -1
-100
-AcDbLine
- 10
-8
- 20
--11.5
- 11
--8
- 21
--11.5
-  0
-LINE
-  5
-8F
-100
-AcDbEntity
-  8
-supports-main
-  6
-ByLayer
- 62
-  256
-370
-   -1
-100
-AcDbLine
- 10
--8
- 20
--11.5
- 11
--8
- 21
--16
+AcDbArc
+ 50
+90
+ 51
+0
   0
 ENDSEC
   0
@@ -4249,7 +3985,7 @@ AcDbDictionary
   0
 PLOTSETTINGS
   5
-90
+84
 100
 AcDbPlotSettings
   6

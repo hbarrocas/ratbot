@@ -1,3 +1,10 @@
+Wed Dec 31 05:12:04 PM AEDT 2025
+
+After a test print, realised that I've calculated the standoffs for the
+encoder PCB to be too tall. Also noticed that some holes for screws would
+be too small. The corrected design works well.
+
+---
 Fri Dec 19 09:03:09 PM AEDT 2025
 
 Created a fitting for the wheel encoder magnets. The encoder manufacturer
