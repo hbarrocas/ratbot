@@ -1,3 +1,14 @@
+Thu Jan  1 01:57:52 PM AEDT 2026
+
+As the previous entry, test printed the magnet holders for the encoders and
+they were too tight (not big enough to even fit). There's a rough 0.3mm difference
+between design and actual print when it comes to holes. The design was modified
+and now the key fitted tightly but the magnet cavity ended up being slightly loose.
+
+Wedging some plastic reject material from previous prints between the part and the
+magnet made it stay firm.
+
+---
 Wed Dec 31 05:12:04 PM AEDT 2025
 
 After a test print, realised that I've calculated the standoffs for the

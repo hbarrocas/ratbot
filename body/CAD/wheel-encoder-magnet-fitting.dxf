@@ -91,7 +91,7 @@ STANDARD
   9
 $CLAYER
   8
-magnet-holder
+key
   9
 $CELTYPE
   6
@@ -800,6 +800,10 @@ $PEXTMAX
 0
  30
 0
+  9
+$GRIDMODE
+ 70
+    1
   9
 $SNAPSTYLE
  70
@@ -2253,7 +2257,7 @@ AcDbLayerTableRecord
   2
 key
  70
-    1
+    0
  62
     7
   6
@@ -2275,7 +2279,7 @@ AcDbLayerTableRecord
   2
 magnet-holder
  70
-    0
+    1
  62
     7
   6
@@ -2451,7 +2455,7 @@ Standard
  70
     0
  40
-1
+2.5
  41
 2.5
  42
@@ -2475,7 +2479,7 @@ Standard
 141
 0.09
 142
-2.5
+0
 143
 25.4
 144
@@ -2503,7 +2507,7 @@ Standard
  77
     0
  78
-    1
+    8
  79
     0
 170
@@ -2541,7 +2545,7 @@ Standard
 277
     2
 278
-    0
+   44
 279
     0
 280
@@ -2733,76 +2737,6 @@ CIRCLE
 100
 AcDbEntity
   8
-traces
-  6
-ByLayer
- 62
-  256
-370
-   -1
-100
-AcDbCircle
- 10
-0
- 20
-0
- 40
-2.75
-  0
-LINE
-  5
-52
-100
-AcDbEntity
-  8
-traces
-  6
-ByLayer
- 62
-  256
-370
-   -1
-100
-AcDbLine
- 10
--1.75
- 20
--4
- 11
--1.75
- 21
-4
-  0
-LINE
-  5
-53
-100
-AcDbEntity
-  8
-traces
-  6
-ByLayer
- 62
-  256
-370
-   -1
-100
-AcDbLine
- 10
-1.75
- 20
--4
- 11
-1.75
- 21
-4
-  0
-CIRCLE
-  5
-54
-100
-AcDbEntity
-  8
 key
   6
 ByLayer
@@ -2819,13 +2753,79 @@ AcDbCircle
  40
 4.5
   0
-ARC
+CIRCLE
+  5
+52
+100
+AcDbEntity
+  8
+magnet-holder
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbCircle
+ 10
+0
+ 20
+0
+ 40
+4.5
+  0
+CIRCLE
+  5
+53
+100
+AcDbEntity
+  8
+magnet-holder
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbCircle
+ 10
+0
+ 20
+0
+ 40
+2.65
+  0
+CIRCLE
+  5
+54
+100
+AcDbEntity
+  8
+traces
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbCircle
+ 10
+0
+ 20
+0
+ 40
+2.8
+  0
+LINE
   5
 55
 100
 AcDbEntity
   8
-key
+traces
   6
 ByLayer
  62
@@ -2833,27 +2833,23 @@ ByLayer
 370
    -1
 100
-AcDbCircle
+AcDbLine
  10
-0
+-1.8
  20
-0
- 40
-2.75
-100
-AcDbArc
- 50
-50.47880364135782
- 51
-129.5211963586422
+-4.5
+ 11
+-1.8
+ 21
+4.5
   0
-ARC
+LINE
   5
 56
 100
 AcDbEntity
   8
-key
+traces
   6
 ByLayer
  62
@@ -2861,19 +2857,15 @@ ByLayer
 370
    -1
 100
-AcDbCircle
+AcDbLine
  10
-0
+1.8
  20
-0
- 40
-2.75
-100
-AcDbArc
- 50
-230.4788036413578
- 51
-309.5211963586422
+-4.5
+ 11
+1.8
+ 21
+4.5
   0
 LINE
   5
@@ -2891,13 +2883,13 @@ ByLayer
 100
 AcDbLine
  10
-1.75
+-1.8
  20
-2.121320343559642
+2.144761058952721
  11
-1.749999999999999
+-1.8
  21
--2.121320343559642
+-2.144761058952722
   0
 LINE
   5
@@ -2915,21 +2907,21 @@ ByLayer
 100
 AcDbLine
  10
--1.75
+1.8
  20
--2.121320343559642
+2.144761058952722
  11
--1.75
+1.8
  21
-2.121320343559643
+-2.144761058952721
   0
-CIRCLE
+ARC
   5
 59
 100
 AcDbEntity
   8
-magnet-holder
+key
   6
 ByLayer
  62
@@ -2943,15 +2935,21 @@ AcDbCircle
  20
 0
  40
-4.5
+2.799999999999999
+100
+AcDbArc
+ 50
+49.99479911513978
+ 51
+130.0052008848602
   0
-CIRCLE
+ARC
   5
 5A
 100
 AcDbEntity
   8
-magnet-holder
+key
   6
 ByLayer
  62
@@ -2965,7 +2963,13 @@ AcDbCircle
  20
 0
  40
-2.5
+2.8
+100
+AcDbArc
+ 50
+229.9947991151398
+ 51
+310.0052008848602
   0
 ENDSEC
   0
