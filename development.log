@@ -1,3 +1,12 @@
+Sun Jan  4 07:10:42 PM AEDT 2026
+
+Designed (hand drawing) a PCB layout for the motor driver, PCB connectors to the
+motors and their power supply, based on a perfboard. Started the process by
+soldering the TB6612FNG and associated tracks to the board. The ESP32 board's
+layout on the PCB is still to be assessed, until I decide what sensors I'll be
+using, and where I will place them.
+
+---
 Thu Jan  1 04:58:33 PM AEDT 2026
 
 Designed a new chasis for the ratbot. This will undergo some upgrades depending
