@@ -1,3 +1,12 @@
+Fri Feb  6 06:51:41 PM AEDT 2026
+
+Pushed the current state of the project to Github.
+Cleaned up the README.md to be more concise. This development log will keep
+track of the changes made, with long descriptions that usually won't fit in
+a commit's message. Although that can be done on github's pull requests
+forms, I prefer to keep its history self-contained.
+
+---
 Sun Jan  4 07:10:42 PM AEDT 2026
 
 Designed (hand drawing) a PCB layout for the motor driver, PCB connectors to the
