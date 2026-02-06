@@ -1,3 +1,13 @@
+Fri Feb  6 07:10:28 PM AEDT 2026
+
+Added the slightly updated design for the body, this time using FreeCAD, which
+will become the main 3D parts design tool. OpenSCAD has a nice programmer's appeal
+by designing with code, but FreeCAD, while being a more traditional CAD tool,
+allows for parametric designs and faster development, and it's free software.
+
+I will continue to consider OpenSCAD + LibreCAD wherever they seem to make sense.
+
+---
 Fri Feb  6 06:51:41 PM AEDT 2026
 
 Pushed the current state of the project to Github.
