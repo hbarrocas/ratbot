@@ -25,12 +25,12 @@ The aim of this project is to learn, practice and flex my skills working with el
 
 ## Development tools
 
-- Espressif's (esp-idf)[https://github.com/espressif/esp-idf/]
-- (Python)[https://www.python.org]
-- (FreeCAD)[https://freecad.org]
-- (OpenSCAD)[https://openscad.org]
-- (LibreCAD)[https://librecad.org]
-- (Vim)[https://www.vim.org]
+- Espressif's [esp-idf](https://github.com/espressif/esp-idf/)
+- [Python](https://www.python.org)
+- [FreeCAD](https://freecad.org)
+- [OpenSCAD](https://openscad.org)
+- [LibreCAD](https://librecad.org)
+- [Vim](https://www.vim.org)
 
 For some of these tools there may be libraries and plug-ins not yet mentioned.
 
