@@ -1,3 +1,19 @@
+Sun  8 Feb 00:39:04 GMT 2026
+
+After doing some thinking, I've decided to downgrade from an ESP32 to an
+Arduino Nano dev board. Initially I envisioned a single ESP32 controller handling
+motion, power, and possibly a limb. It was also an opportunity to work with
+FreeRTOS and use C++. Having moved its development environment to the Raspberry Pi
+made me see how big it is (north of 3GB and really slow to compile).
+
+In contrast, the Arduino Nano board will be able to handle the simple task of
+motion, using a less sizable environment and still allowing me to code in C++,
+which is not a deal breaker, but it's good exercise.
+
+This change involves including an I2c multiplexer, since the two AS5600 rotary
+encoders I have, can't have their I2c bus addresses reconfigured and will collide.
+
+---
 Fri Feb  6 07:10:28 PM AEDT 2026
 
 Added the slightly updated design for the body, this time using FreeCAD, which
