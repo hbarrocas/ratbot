@@ -23,3 +23,18 @@ speed.
 
 - Arduino-cli (includes all Arduino libraries)
 - Written in C++ instead of .ino (staying closer to the real embedded world)
+
+### Compile/Flash instructions
+
+Inside the `controller/` folder there's a `controller.ino` stub, needed for the
+Arduino-cli environment to work. The relevant code exists under `src/`, where the
+top level source file is `main.cpp`.
+
+```bash
+$ cd controller/
+$ arduino-cli compile -v --fqbn arduino:avr:nano:cpu=atmega328old
+[...]
+$ arduino-cli upload -v -p /dev/ttyUSB0 --fqdn arduino:avr:nano:cpu=atmega328old
+[...]
+```
+
