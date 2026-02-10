@@ -1,3 +1,25 @@
+Tue 10 Feb 08:43:02 GMT 2026
+
+- Soldered the TB6612FNG motor driver to the controller board.
+- Assembled both motors' wiring looms
+- Assembled wiring for the controller power supply (motors' power supply)
+- Created a motor driver (motor.cpp, motor.h)
+
+Temporarily soldered some wires to the TB6612FNG so it can be driven from
+a breadboard. It's all ready so the controller can be connected to a testing
+power source and the Arduino Nano, using the motor driver code, drive the
+two motors. Tomorrow
+
+---
+Sun  8 Feb 09:24:27 GMT 2026
+
+Tested Arduino Nano connected to an AS5600 encoder, successfully returning
+numbers on the serial port. More physical tests will be run later on the robot
+itself as it is hard to centre the magnet by hand for 'just a test'.
+
+This also served to test the whole Arduino development environment successfully.
+
+---
 Sun  8 Feb 00:39:04 GMT 2026
 
 After doing some thinking, I've decided to downgrade from an ESP32 to an
