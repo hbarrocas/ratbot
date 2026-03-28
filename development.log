@@ -1,3 +1,18 @@
+Sat Mar 28 07:35:01 PM AEDT 2026
+
+I had an interesting chat with Chat GPT, where I've developed a personal
+strategic plan to become among other things, an embedded systems engineer.
+As a result of this conversation, I started following a series of exercises
+using the Arduino Nano that will be used as the Ratbot's motion controller.
+These exercises were focused on becoming free from the Arduino environment 
+and use pure AVR C, creating my own drivers for the Nano's GPIO, UART and timers.
+
+With this basic knowledge, I've decided to remove all existing 'controller'
+code and start from scratch using pure AVR C. Most of this code comes directly
+from the source files created during my learning and will need to be further
+improved as the project evolves.
+
+---
 Sun  8 Feb 00:39:04 GMT 2026
 
 After doing some thinking, I've decided to downgrade from an ESP32 to an

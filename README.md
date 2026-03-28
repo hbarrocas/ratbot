@@ -34,4 +34,4 @@ The aim of this project is to learn, practice and flex my skills working with el
 
 For some of these tools there may be libraries and plug-ins not yet mentioned.
 
-For information about the progress check out the [development.log](development.log).
+For information about the progress check out the [development.log](./development.log).
