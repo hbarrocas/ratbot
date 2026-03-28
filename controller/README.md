@@ -8,7 +8,7 @@ complexity that is i2c buses, ports and PID calculations, under a reduced set of
 commands that allow the robot to move forward, backward and turn at controllable
 speed.
 
-### Safeguards that will be included
+### Safeguards that will (hopefully) be included
 
 - Stop if disconnected (implement ping)
 - deactivate motor if wheel seized (damage protection)
@@ -19,22 +19,30 @@ speed.
 - AS5600 rotary encoders
 - TB6612FNG dual H-Bridge
 
-### Software
+### Development tools
 
-- Arduino-cli (includes all Arduino libraries)
-- Written in C++ instead of .ino (staying closer to the real embedded world)
+- Compiler: `avr-gcc`
+- Autmation: `make`
+- Flashing utility: `avrdude`
 
 ### Compile/Flash instructions
 
-Inside the `controller/` folder there's a `controller.ino` stub, needed for the
-Arduino-cli environment to work. The relevant code exists under `src/`, where the
-top level source file is `main.cpp`.
+All commands are scripted in the `Makefile`.
 
 ```bash
-$ cd controller/
-$ arduino-cli compile -v --fqbn arduino:avr:nano:cpu=atmega328old
-[...]
-$ arduino-cli upload -v -p /dev/ttyUSB0 --fqdn arduino:avr:nano:cpu=atmega328old
-[...]
+# Compile and upload:
+$ make upload
+
+# Compile only:
+$ make
+
+# delete artifacts - clean
+$ make clean
 ```
 
+### Testing
+
+Included is the `control.py` script, used to send _Binary framed_ commands
+via UART to the controller.
+
+Instructions coming soon; my project time is up for today.
