@@ -18,6 +18,7 @@ speed.
 - Based on Arduino Nano development board
 - AS5600 rotary encoders
 - TB6612FNG dual H-Bridge
+- TCA9548A i2c multiplexer
 
 ### Development tools
 
