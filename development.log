@@ -1,3 +1,20 @@
+Sun Nov  8 09:29:46 PM AEDT 2026
+
+Updates from my laptop copy of repository:
+- "Refactored" 3D body design CAD
+- updated .gitignore
+
+After practicing and learning from various sources, namely, Youtube and
+ChatGPT, I've found a much better way of keeping a CAD design coherent
+in a multi-file project. This commit is still a work in progress in that
+regard. Original file has been divided into individual files, each containing
+a single part, and a separate file containing design dimensions and
+parameters to which all other files link.
+
+Additionally, added supports for the Raspberry Pi platform to the designs.
+Supports were printed and installed successfully.
+
+---
 Sun  8 Nov 05:34:40 GMT 2026
 
 After months of inactivity due to life, I'm resuming development.
