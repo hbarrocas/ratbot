@@ -1,3 +1,21 @@
+Sun  8 Nov 05:34:40 GMT 2026
+
+After months of inactivity due to life, I'm resuming development.
+
+After today's system upgrade, the controller stopped compiling because
+two files ommited `stdbool.h` in their include sections.
+
+After corrections, the system is now compiling, good for a starting point.
+
+The controller board was also updated. Connections between the TB6612FNG
+and the Arduino Nano were hardwired on the prototype board. A space for the
+i2c multiplexer has been planned and will be installed on the next hardware
+update.
+
+To Do:
+Update the firmware to work with the new board update.
+
+---
 Sat Mar 28 07:35:01 PM AEDT 2026
 
 I had an interesting chat with Chat GPT, where I've developed a personal
