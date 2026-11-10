@@ -1,3 +1,20 @@
+Tue 10 Nov 10:50:13 GMT 2026
+
+Further testing revealed that the reverse rotation for a motor was being
+applied to the opposite motor, e.g.: motor_a = 200 would turn at that power
+setting, but motor_a = -200 would not change motor a's rotation while
+motor_b's direction would reverse.
+
+Bug corrected.
+
+---
+Mon  9 Nov 10:53:04 GMT 2026
+
+Removed pwm driver in favour of an all-inclusive tng6612 driver, which
+controls pwm for both motors, as well as their spin direction.
+Reverse rotation when set with a negative power value still doesn't work
+
+---
 Sun Nov  8 09:29:46 PM AEDT 2026
 
 Updates from my laptop copy of repository:
