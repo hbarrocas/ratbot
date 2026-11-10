@@ -3,11 +3,11 @@
 #define PWM_TOP 799
 
 #define MOTOR_A_PWM    PB1
-#define MOTOR_A_FWD    PD7
-#define MOTOR_A_REV    PD6
+#define MOTOR_A_FWD    PD4
+#define MOTOR_A_REV    PD3
 #define MOTOR_B_PWM    PB2
-#define MOTOR_B_FWD    PD4
-#define MOTOR_B_REV    PD3
+#define MOTOR_B_FWD    PD7
+#define MOTOR_B_REV    PD6
 
 #define TB6612_STDBY   PD5
 
